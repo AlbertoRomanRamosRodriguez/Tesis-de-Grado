@@ -2,12 +2,15 @@ from os import path, listdir
 from utilities.dataset import zipDataset, getTrainingAndTest
 from utilities.general import checkPathExists
 
-
+# Showing a list of datasets on the local directory
 datasets = [f for f in listdir() if f.isupper()]
 for i, d in enumerate(datasets):
     print(f"{i} - {d}")
 
 BD_PATH = path.join(datasets[int(input("\nSelect Dataset: "))])
+del datasets
+
+# Dataset filesystem
 DATASET_PATH = path.join('Dataset')
 checkPathExists(DATASET_PATH)
 
