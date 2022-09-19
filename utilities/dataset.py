@@ -1,7 +1,7 @@
 import shutil
 import random
 
-from general import log
+from utilities.general import log
 from os import listdir
 from os.path import join
 
