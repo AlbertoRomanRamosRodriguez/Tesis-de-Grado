@@ -8,7 +8,7 @@ from os.path import join
 def zipDataset(ZIP_NAME: str, DATASET_PATH:str):
 
     shutil.make_archive(ZIP_NAME, 'zip', DATASET_PATH)
-    log(f"[ZIPPED] {ZIP_NAME} ready to ship to Colab")
+    # log(f"[ZIPPED] {ZIP_NAME} ready to ship to Colab")
 
 def exportLabel(label: str, output_f_name: str, expt_path: str):
 	"""
