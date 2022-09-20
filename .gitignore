@@ -3,3 +3,6 @@ venv
 
 ARIA/
 __pycache__/
+Dataset/
+
+Dataset-segmentation-fundus.zip
