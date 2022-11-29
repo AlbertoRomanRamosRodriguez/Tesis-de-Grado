@@ -2,10 +2,12 @@
 venv
 Data
 Documentation
-Dataset
+Dataset_ref
+Dataset_grad
 DB
 
-grading_dr.h5
+models
+confusion_matrices
 Dataset.zip
 confusion_matrix.png
 ThesisExplained.mp4
