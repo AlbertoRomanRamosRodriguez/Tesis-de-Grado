@@ -1,7 +1,7 @@
 import cv2
 
 class SimpleProcessor:
-    def __init__(self,width, height, inter=cv2.INTER_AREA) -> None:
+    def __init__(self,width: int, height: int, inter=cv2.INTER_AREA) -> None:
         self.width = width
         self.height = height
         self.inter = inter
