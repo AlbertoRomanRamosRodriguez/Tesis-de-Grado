@@ -1,20 +1,18 @@
 .ipynb_checkpoints/
-venv
+.idea/
 Data
 Documentation
 Dataset_ref
 Dataset_grad
 DB
 
+output/*
+__pycache__/
 models
 confusion_matrices
 Dataset.zip
-confusion_matrix.png
-ThesisExplained.mp4
 
-__pycache__/
 Daniel-files/
+ThesisExplained.mp4
 reunion-tesis-milton-1.m4a
-output/26193.jpg
 tesis_lib
-output/dogs_cats_means.json
