@@ -1,6 +1,7 @@
 .ipynb_checkpoints/
 .idea/
 Data
+RAW_DATA
 Documentation
 Dataset_ref
 Dataset_grad
