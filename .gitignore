@@ -10,6 +10,7 @@ DB
 output/*
 __pycache__/
 models
+error_imgs
 confusion_matrices
 Dataset.zip
 
