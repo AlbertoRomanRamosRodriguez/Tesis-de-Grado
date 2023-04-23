@@ -6,6 +6,7 @@ Documentation
 Dataset_ref
 Dataset_grad
 DB
+venv
 
 output/*
 __pycache__/
@@ -20,3 +21,5 @@ reunion-tesis-milton-1.m4a
 tesis_lib
 
 *.zip
+
+*.png
