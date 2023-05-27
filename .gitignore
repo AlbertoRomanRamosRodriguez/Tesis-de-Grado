@@ -8,6 +8,7 @@ Dataset_ref
 Dataset_grad
 DB
 venv
+cap*
 
 output/*
 __pycache__/
